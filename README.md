@@ -18,4 +18,4 @@ Příkaz:
 - ```npm run dev``` spouští kompilaci SASS do CSS a ES6 do ES5 do vývojového prostředí (zapisuje sourcemapy, ignoruje se minifikace)
 - ```npm run build``` spouští kompilaci SASS do CSS a ES6 do ES5 do produkčního prostředí
 - ```npm run js``` nebo  ```npm run css``` spouštít kompilaci SCSS nebo JS
-- ```npm run css:myconponent``` nebo  ```npm run js:app``` spouštít kompilaci specifikovaných modulů specifikovaných v souboru  ```webpack.config.js```
+- ```npm run css:myconponent``` nebo  ```npm run js:app``` spouštít kompilaci specifikovaných modulů v souboru  ```webpack.config.js```
