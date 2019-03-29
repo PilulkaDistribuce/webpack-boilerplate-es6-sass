@@ -23,6 +23,7 @@
   "scripts": {
     "dev": "webpack --env.mode=dev",
     "build": "webpack --env.mode=prod",
+    "watch": "webpack --env.mode=development --watch",
     "js": "webpack --env.mode=dev --env.type=js",
     "css": "webpack --env.mode=dev --env.type=css",
     "css:myconponent": "webpack --env.mode=dev --env.type=css-app",
