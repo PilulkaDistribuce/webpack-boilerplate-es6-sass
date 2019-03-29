@@ -1,0 +1,69 @@
+{
+  "name": "webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "Webpack boilerplate with ES6 and SASS.",
+  "authors": [
+    {
+      "name": "Tomáš Smetka",
+      "email": "smetka.tomas90@gmail.com",
+      "homepage": "https://github.com/smety"
+    },
+    {
+      "name": "Marek Hanáček",
+      "email": "marek.hanacek1@gmail.com",
+      "homepage": "https://github.com/marekhanacek"
+    },
+    {
+      "name": "Šimon Raichl",
+      "email": "simon.raichl@pilulka.cz",
+      "homepage": "https://github.com/velociraptorcze"
+    }
+  ],
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --env.mode=dev",
+    "build": "webpack --env.mode=prod",
+    "js": "webpack --env.mode=dev --env.type=js",
+    "css": "webpack --env.mode=dev --env.type=css",
+    "css:myconponent": "webpack --env.mode=dev --env.type=css-app",
+    "js:app": "webpack --env.mode=dev --env.type=js-app"
+  },
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "babel-loader": "7.1.4",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-stage-2": "6.24.1",
+    "css-loader": "1.0.1",
+    "cssnano": "^4.1.10",
+    "eslint": "5.7.0",
+    "extract-text-webpack-plugin": "3.0.2",
+    "file-loader": "2.0.0",
+    "imagemin-pngquant": "7.0.0",
+    "install": "0.12.2",
+    "jshint": "^2.10.2",
+    "mini-css-extract-plugin": "0.5.0",
+    "node-sass": "4.9.2",
+    "npm": "6.4.1",
+    "optimize-css-assets-webpack-plugin": "5.0.1",
+    "postcss-loader": "3.0.0",
+    "progress-bar-webpack-plugin": "1.12.1",
+    "sass-lint": "1.12.1",
+    "sass-loader": "7.1.0",
+    "script-loader": "^0.7.2",
+    "style-loader": "0.20.3",
+    "stylelint": "github:stylelint/stylelint",
+    "stylelint-config-standard": "18.2.0",
+    "uglify-es": "3.3.10",
+    "uglify-js": "3.4.9",
+    "uglifyjs-webpack-plugin": "2.1.1",
+    "url-loader": "1.0.1",
+    "vinyl-buffer": "1.0.1",
+    "vinyl-source-stream": "2.0.0",
+    "webpack": "4.29.5",
+    "webpack-bundle-analyzer": "^3.0.3",
+    "webpack-cli": "3.2.3"
+  },
+  "author": "Tomas Smetka <smetka.tomas90@gmail.com>",
+  "license": "ISC"
+}
