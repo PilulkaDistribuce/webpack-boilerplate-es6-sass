@@ -7,7 +7,7 @@
 
 ## Naklonování a instalace závislostí 
 
-1. Naklonovat repo ```git clone git@github.com:PilulkaDistribuce/webpack-boilerplate-es6-sass.git && cd webpack-boilerplate```  
+1. Naklonovat repo ```git clone git@github.com:PilulkaDistribuce/webpack-boilerplate-es6-sass.git && cd webpack-boilerplate-es6-sass```  
 2. Nainstalovat závislosti  ```npm install``` nebo   ```yarn install```
 
 
