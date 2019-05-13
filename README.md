@@ -1,4 +1,4 @@
-# Webpack boilerplate 
+# Webpack boilerplate s podporou SASS a ES6
 
 - Webpack 4
 - Kompilace SASS do CSS včetně minifikace, načítání fontů, SVG, JPG a PNG obrázků
